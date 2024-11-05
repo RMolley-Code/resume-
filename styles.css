@@ -1,0 +1,166 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Dark background for the whole page */
+    color: #ffffff; /* White text color */
+}
+
+/* Header Styles */
+header {
+    background-color: #1f1f1f; /* Darker header */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 1;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Banner Section Styles */
+.banner {
+    background-color: #0b3041; /* Green background */
+    color: white; /* White text */
+    text-align: center; /* Centered text */
+    padding: 50px 20px; /* Padding around the content */
+}
+
+.banner-content h2 {
+    font-size: 2.5em; /* Larger font size for the heading */
+}
+
+.banner-content p {
+    font-size: 1.2em; /* Slightly larger font size for the subtitle */
+}
+
+/* About Section Styles */
+#about {
+    padding: 40px 20px; /* Padding around the section */
+    text-align: center; /* Center the text */
+}
+
+#about h1 {
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+#about p {
+    max-width: 800px; /* Optional: Limit the width of the paragraph */
+    margin: 0 auto; /* Center the paragraph */
+    line-height: 1.6; /* Improve readability with line height */
+}
+
+/* Social Media Section Styles */
+#social-media {
+    padding: 40px 20px;
+    text-align: center; /* Center the text */
+}
+
+.social-media-container {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Space between cards */
+}
+
+.social-card {
+    background-color: #1f1f1f; /* Dark background for cards */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside cards */
+    text-align: center; /* Center text in cards */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    transition: transform 0.3s; /* Smooth transform on hover */
+}
+
+.social-card:hover {
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+}
+
+.social-icon {
+    width: 50px; /* Fixed width for icons */
+    height: 50px; /* Fixed height for icons */
+    margin-bottom: 15px; /* Space below icon */
+}
+
+.social-card h2 {
+    margin: 10px 0; /* Margin for heading */
+}
+
+.social-card a {
+    display: inline-block; /* Block display for link */
+    margin-top: 10px; /* Space above the link */
+    padding: 10px 15px; /* Padding for the button */
+    background-color: #4CAF50; /* Button color */
+    color: white; /* Button text color */
+    text-decoration: none; /* No underline */
+    border-radius: 5px; /* Rounded corners for button */
+    transition: background-color 0.3s; /* Smooth background color change */
+}
+
+.social-card a:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Showcase Section Styles */
+#showcase {
+    padding: 40px 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allows cards to wrap on smaller screens */
+}
+
+.card {
+    background-color: #1f1f1f; /* Dark background for cards */
+    border-radius: 8px; /* Rounded corners */
+    width: 300px; /* Fixed width for cards */
+    margin: 20px; /* Space between cards */
+    padding: 20px; /* Padding inside cards */
+    text-align: center; /* Center text in cards */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    transition: transform 0.3s; /* Smooth transform on hover */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+}
+
+.card-image {
+    width: 100%; /* Full width for images */
+    height: 200px; /* Fixed height for images */
+    object-fit: cover; /* Cover the area without distortion */
+    border-radius: 8px 8px 0 0; /* Rounded corners on top */
+}
+
+.card h2 {
+    margin: 15px 0 10px; /* Margin for heading */
+}
+
+.card p {
+    margin: 10px 0; /* Margin for paragraph */
+}
+
+.card a {
+    display: inline-block; /* Block display for link */
+    margin-top: 10px; /* Space above the link */
+    padding: 10px 15px; /* Padding for the button */
+    background-color: #4CAF50; /* Button color */
+    color: white; /* Button text color */
+
+
+
+}
+    
