@@ -30,6 +30,58 @@
         <button href="Tools.html"> Tools </button>    
         <span><i class="bi bi-0-circle-fill"></i></span>        
     </section>
+       <!-- Logo Slide Section -->
+<style>
+  .logo-slide-container {
+    overflow: hidden;
+    width: 100%;
+    padding: 20px 0;
+    /* no background */
+  }
+
+  .logo-slide-track {
+    display: flex;
+    animation: scroll-left 20s linear infinite;
+  }
+
+  .logo-slide-track:hover {
+    animation-play-state: paused;
+  }
+
+  .logo-slide-track img {
+    height: 60px;
+    margin: 0 30px;
+    object-fit: contain;
+  }
+
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+</style>
+
+ <section id="showcase">
+        <h1>Designs</h1>
+
+<div class="logo-slide-container">
+  <div class="logo-slide-track">
+    <img src="images/aca logo.png" alt="Logo 1" />
+    <img src="images/booka.png" alt="Logo 2" />
+    <img src="images/fimash logo.jpg" alt="Logo 3" />
+    <img src="images/locallogo.png" alt="Logo 4" />
+    <img src="images/GOAT ReCORDS.png" alt="Logo 5" />
+    <!-- Repeat logos for smooth looping -->
+    <img src="images/Resume logo.png" alt="Logo 1" />
+    <img src="images/clothing logo.png" alt="Logo 2" />
+    <img src="images/Diploma in Data Analytics - Google Chrome 2025_06_05 13_40_15.png" alt="Logo 3" />
+    <img src="images/art.jpg" alt="Logo 4" />
+    <img src="images/UX UI EDUWEB.png" alt="Logo 5" />
+  </div>
+</div>
 
     <section id="showcase">
         <h1>My Works</h1>
