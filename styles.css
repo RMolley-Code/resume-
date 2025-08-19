@@ -105,7 +105,19 @@ button.white {
   z-index: -1;
 }
 
-
+.hero-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 0 1rem;
+  background: rgba(0, 0, 0, 0.4); /* Optional overlay for readability */
+}
 
 
 #feature.section-p1 :hover{
@@ -440,5 +452,6 @@ footer {
 }
     
 /* Responsive Styles */
+
 
 
