@@ -1,0 +1,113 @@
+et="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PriceProwler - Save Big on Groceries</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        /* ========== CSS VARIABLES ========== */
+        :root {
+            --primary-orange: #FF6B35;
+            --primary-red: #E63946;
+            --warm-yellow: #F4A261;
+            --deep-red: #9B2335;
+            --warm-cream: #FFF8F0;
+            --dark-brown: #2D1810;
+            --medium-brown: #5C3D2E;
+            --light-orange: #FFD4B8;
+            --gradient-warm: linear-gradient(135deg<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta chars, #FF6B35 0%, #E63946 50%, #F4A261 100%);
+            --gradient-sunset: linear-gradient(135deg, #F4A261 0%, #E63946 100%);
+            --shadow-warm: 0 10px 40px rgba(230, 57, 70, 0.2);
+        }
+
+        /* ========== RESET & BASE ========== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--warm-cream);
+            color: var(--dark-brown);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* ========== HEADER ========== */
+        .header {
+            background: var(--gradient-warm);
+            padding: 1rem 5%;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: var(--shadow-warm);
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo i {
+            font-size: 1.5rem;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.3s;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+        }
+
+        .nav-links a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+
+        .points-display {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 0.5rem 1.5rem;
+            border-radius: 25px;
+            color: white;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            backdrop-filter: blur(10px);
+        }
+
+        .points-display i {
+            color: #
+        }
